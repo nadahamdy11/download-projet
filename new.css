@@ -1,0 +1,615 @@
+body{
+	height: 100%;
+}
+*{
+	margin: 0;
+	padding: 0;
+	  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.home{
+	background-image: url(v.mp4);
+  width: 100%;
+  min-height: 90px;
+  height: 550px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+}
+video{
+	width: 100%;
+}
+.home:after{
+  z-index: 777;
+    content: '';
+  width: 100%;
+  height: 690px;
+  top: 0;
+  left: 0;
+    background: rgba(0,0,0,0.5);
+
+
+}
+
+
+ .text-box h1{
+  font-size: 4em;
+  font-weight: 950;
+  letter-spacing: 6px;
+  line-height: 80px;
+  margin-bottom: 20px;
+  color: white;
+  top:25%;
+  left: 15%;
+  transform: translate(-50%);
+  
+
+  color:transparent;
+  -webkit-text-stroke:1.7px white ;
+  background:url(photo2.jfif);
+    -webkit-background-clip:text ;
+    background-position: 0 0;
+    animation:photo2 20s linear infinite;
+    opacity:.5px;
+    position: absolute;
+
+}
+@keyframes photo2{
+	100%{
+		    background-position: 2000px 0;
+
+	}
+}
+
+
+ .text-box h1 span{
+  font-size: 1.2em;
+  font-weight: 800;
+    position: absolute;
+    left: 67%;
+    transform: translate(-50%);
+  color:transparent;
+  -webkit-text-stroke:1.6px white ;
+  background:url(photo2.jfif);
+    -webkit-background-clip:text ;
+    background-position: 0 0;
+    animation:photo2 20s linear infinite;
+   white-space: nowrap;
+    display: block;
+}
+.text-box p{
+
+	 font-size: 30px;
+	 color:white;
+    margin-bottom: 80px;
+    top:70%;
+    right: 80%;
+    font-family: 'Lora', serif;
+    margin-left: 50px;
+        position: absolute;
+        margin-top: 30px;
+}
+ 
+.button1{
+	background-color: #31ABEA;
+	font-size: 24px;
+	 color:white;
+    top:500px;
+    right: 80%;
+    border-radius: 20px;
+    height: 65px;
+    width: 280px;
+    font-weight: bold;
+      cursor: pointer;
+      text-align: center;
+      font-family: 'Lora', serif;
+          position: absolute;
+          margin-top: 30px;
+
+
+}
+.button1:hover{
+     background-color: #21262E;
+}
+
+.find{
+	width:100%;
+    height: 570px;
+    background-color: white;
+    text-align: center;
+    margin-top:210px; 
+
+}
+.find h3{
+	    font-size: 35px;
+	    color:#4CADF0;
+        line-height: 28px;
+        margin-bottom: 25px;
+        display: block;
+        font-family: 'Koh Santepheap', cursive;
+
+}
+.find span{
+        color:#5E5F66;
+        font-size: 20px;
+        font-family: 'Koh Santepheap', cursive;
+
+}
+.icons {
+	display: flex;
+     text-align: center;
+     margin-top:40px;
+     width: 90px;
+     height: 110px;
+}
+/*.icons img{
+	margin-right: 170px;
+		margin-left: 180px;
+
+}*/
+.icon6{
+	margin-left: 370px;
+}
+.icon7{
+	margin-left: 260px;
+
+}
+.icon8{
+	margin-left: 190px;
+
+}
+
+.words{
+	display: flex;
+	margin-top: 20px;
+	
+}
+.words{
+
+		font-style: bold;
+		font-size: 20px;
+	    font-family: 'Koh Santepheap', cursive;
+
+}
+.words3 {
+		margin-left: 350px;
+}
+.words4{
+	   margin-left: 180px;
+}
+.words5{
+		margin-left: 150px;
+
+}
+
+
+.words2{
+	display: flex;
+	margin-top: 17px;
+	font-size: 16px;
+     margin-left: 280px;
+     margin-right: 80px;
+    width: 990px;
+}
+.words2 p{
+	display: block;
+     text-align: center;
+     margin-right: 50px;
+      color:#5E5F66;
+      font-family: 'Koh Santepheap', cursive;
+}
+.buttons{
+	display: flex;
+    margin-top: 35px;
+    margin-right: 50px;
+    cursor: hand;
+     
+}
+.button2{
+			margin-left: 330px;
+			width: 220px;
+            height: 40px;
+            background-color: #340EF4;
+            color: white;
+            font-style: bold;
+           text-align: center;
+        cursor: pointer;
+
+
+}
+.button3{
+		   margin-left: 130px;
+		   width: 220px;
+           height: 40px;
+           background-color:#17CE1B;
+           color: white;
+           font-style: bold;
+          text-align: center;
+           cursor: pointer;
+
+
+
+}
+.button4{
+		margin-left: 100px;
+        width: 220px;
+        height: 40px;
+        background-color: gray;
+        color: white;
+        font-style: bold;
+        text-align: center;
+        cursor: pointer;
+
+
+
+}
+.cities{
+	width:100%;
+    height: 270px;
+    background-color: white;
+    margin-top: 20px;
+
+}
+.cities h5{
+	font-style: bold;
+	font-size: 25px;
+	font-family: 'Koh Santepheap', cursive;
+	color: #3B4141;
+    text-align: center;
+}
+.cities1{
+	display: flex;
+	margin-top: 18px;
+	margin-left: 80px;
+	position: relative;
+    text-align: center;
+}
+.egypt{
+	width: 300px;
+	height: 200px;
+	margin-left: 200px;
+	font-size: 25px;
+
+}
+.leb{
+	width: 300px;
+	height: 200px;
+	margin-left: 20px;
+}
+.sor{
+	width: 300px;
+	height: 200px;
+	margin-left: 20px;
+	margin-right: 50px;
+}
+h6{
+	font-size: 40px;
+	font-style: bold;
+	color: white;
+}
+.cities1 span{
+	color: white;
+	font-size: 20px;
+}
+
+.egypt2{
+	position: absolute;
+  top: 30%;
+  left: 20%;
+}
+.leb2{
+	position: absolute;
+  top: 30%;
+  left: 40%;
+
+}
+
+.sor2{
+	position: absolute;
+  top: 30%;
+  left: 63%;
+
+}
+.egypt2 button{
+	background-color: #0E19EE;
+	width: 50px;
+	height: 30px;
+	color: white;
+	font-size: bold;
+	cursor: pointer;
+}
+.leb2 button{
+	background-color:  #0E19EE;
+	width: 50px;
+	height: 30px;
+	color: white;
+	font-size: bold;
+    cursor: pointer;
+
+}
+.sor2 button{
+	background-color: #0E19EE;
+	width: 50px;
+	height: 30px;
+	color: white;
+	font-size: bold;
+	cursor: pointer;
+
+}
+.cities2{
+	width: 100%;
+	height: 220px;
+	display: flex;
+	position: relative;
+	background-color: white;
+    }
+
+.italy{
+	width: 300px;
+	height: 200px;
+	margin-left: 280px;
+
+
+}
+.japan{
+	width: 300px;
+	height: 200px;
+	margin-left: 20px;
+
+}
+.london{
+	width: 300px;
+	height: 200px;
+	margin-left: 20px;
+	margin-right: 50px;
+}
+
+
+.italy2{
+	position: absolute;
+  top: 20%;
+  left: 27%;
+
+}
+
+.japan2{
+	position: absolute;
+  top: 23%;
+  left: 45%;
+
+}
+.london2{
+	position: absolute;
+  top: 20%;
+  left: 66%;
+
+
+}
+
+
+.italy2 button{
+	background-color: #0E19EE;
+	width: 50px;
+	height: 30px;
+	color: white;
+	font-size: bold;
+	cursor: pointer;
+
+}
+.japan2 button{
+	background-color:  #0E19EE;
+	width: 50px;
+	height: 30px;
+	color: white;
+	font-size: bold;
+    cursor: pointer;
+    margin-left: 40px;
+
+
+}
+.london2 button{
+	background-color: #0E19EE;
+	width: 50px;
+	height: 30px;
+	color: white;
+	font-size: bold;
+	cursor: pointer;
+	margin-left: 40px;
+
+
+
+}
+.cities2 span{
+	color: white;
+	font-size: 20px;
+}
+
+
+
+
+.cities3{
+	width: 100%;
+	height: 210px;
+	display: flex;
+	position: relative;
+	background-color: white;
+    }
+
+.chaina{
+	width: 300px;
+	height: 200px;
+	margin-left: 280px;
+
+}
+.soysra{
+	width: 300px;
+	height: 200px;
+	margin-left: 20px;
+
+}
+.do{
+	width: 300px;
+	height: 200px;
+	margin-left: 20px;
+	margin-right: 50px;
+}
+
+
+.chaina2{
+	position: absolute;
+  top: 20%;
+  left: 25%;
+
+}
+
+.soysra2{
+	position: absolute;
+  top: 20%;
+  left: 45%;
+
+}
+.do2{
+	position: absolute;
+  top: 20%;
+  left: 66%;
+
+
+}
+
+
+.chaina2 button{
+	background-color: #0E19EE;
+	width: 50px;
+	height: 30px;
+	color: white;
+	font-size: bold;
+	cursor: pointer;
+margin-left: 40px;
+
+}
+.soysra2 button{
+	background-color:  #0E19EE;
+	width: 50px;
+	height: 30px;
+	color: white;
+	font-size: bold;
+    cursor: pointer;
+margin-left: 40px;
+}
+.do2 button{
+	background-color: #0E19EE;
+	width: 50px;
+	height: 30px;
+	color: white;
+	font-size: bold;
+	cursor: pointer;
+	margin-left: 40px;
+
+
+
+}
+.cities3 span{
+	color: white;
+	font-size: 20px;
+}
+
+h4{
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+
+.end{
+	width: 100%;
+	height: 500px;
+	background-color: white;
+
+}
+.end h4{
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.end p{
+	font-size: 15px;
+	color: gray;
+	text-align: center;
+	width: 600px;
+	margin-left: 470px;
+}
+.world{
+	display: flex;
+	margin-left: 450px;
+	margin-top: 30px;
+}
+.world img{
+	width: 100px;
+	height: 90px;
+	margin-left: 90px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+.final{
+	display: flex;
+	margin-left: 450px;
+
+
+}
+.final p{
+	text-align: center;
+	margin-left: 90px;
+	width: 100px;
+	color: #4C5252;
+}
+
+
+footer ,footer p{
+     
+
+	background-color:gray;
+	text-align: center;
+	padding: 0px;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 8px;
+  display: inline;
+}
+
+footer img{
+  /* padding: 0px; */
+	height: 30px;
+	margin-right:10px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

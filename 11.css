@@ -1,0 +1,10 @@
+.basic{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)) ,url(photo1.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}

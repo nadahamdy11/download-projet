@@ -1,0 +1,77 @@
+
+.contain{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contain form{
+    background-image:linear-gradient(to right  , #E1E7E7 , #E1E7E7);
+    text-align: center;
+    margin: 5% auto 15% auto;
+    width: 70%;
+    height: 85%;
+    padding:10px ;
+}
+
+
+
+
+
+.nav{
+	font-size: 20px;
+	text-align: center;
+	background-image: url(photo2.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+background-size: 100%;
+ 	background-size: cover;
+position: relative;
+font-family: 'Playfair Display', serif;	
+}
+h1,h5{
+		color:#2A6161;
+
+}
+.search{
+	background-color:#2A6161;
+	width: 320px;
+	height: 70px;
+	text-align: center;
+	border-radius: 30px;
+	 cursor: pointer;
+	 font-size: 21px;
+	 margin-top: 10px;
+
+}
+.search :hover{
+background-color: #BA9DC5;
+}
+.fa-calendar-check-o{
+color: black;
+display: block;
+}
+.apartment{
+	color: black;
+	font-size:35px;
+	text-decoration: none;
+}
+.Subscribe{
+color: black;
+font-size:35px;
+text-decoration: none;	
+}
+.contact{
+	color: black;
+	font-size:35px;
+text-decoration: none;
+}
